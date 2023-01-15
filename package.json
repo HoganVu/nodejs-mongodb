@@ -1,0 +1,23 @@
+{
+  "name": "mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HoganVu/nodejs-mongodb.git"
+  },
+  "keywords": [
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "hogan vu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HoganVu/nodejs-mongodb/issues"
+  },
+  "homepage": "https://github.com/HoganVu/nodejs-mongodb#readme"
+}
