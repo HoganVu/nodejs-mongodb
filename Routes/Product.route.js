@@ -2,8 +2,8 @@ const express = require('express')
 const router = express.Router();
 
 
-router.get('/', (req,res) => {
-    res.send("Getting a list of all products...")
+router.get('/', (req,res,next) => {
+    next(new Error("cannot get a list of all products"))
 })
 
 router.post('/', (req, res) => {
